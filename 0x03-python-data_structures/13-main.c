@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -10,7 +9,7 @@
  */
 int main(void)
 {
-	listint_t *head;
+    listint_t *head;
 
     head = NULL;
     add_nodeint_end(&head, 1);
